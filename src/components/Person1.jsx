@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import "./p1.css";
 import UpdatedComponent from "./Hoc";
 
