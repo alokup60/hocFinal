@@ -6,7 +6,7 @@ const UpdatedComponent = (OriginalComp) => {
     const incHandler = () => {
       setValue(value * 2);
     };
-    return <OriginalComp value={value} incHandler={incHandler} />;
+    return <OriginalComp value={value} incHandler={incHandler} />; //pass props
   };
   return NewComp;
 };

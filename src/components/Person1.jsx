@@ -3,6 +3,7 @@ import "./p1.css";
 import UpdatedComponent from "./Hoc";
 
 const Person1 = ({ value, incHandler }) => {
+  //pass here props
   return (
     <div className="p1">
       <h2>Person 1 offers: ${value}</h2>
@@ -11,4 +12,4 @@ const Person1 = ({ value, incHandler }) => {
   );
 };
 
-export default UpdatedComponent(Person1);
+export default UpdatedComponent(Person1); //changes alias
